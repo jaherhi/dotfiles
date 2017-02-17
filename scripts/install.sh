@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ln -s -f ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s -i ../zsh/.zshrc ~/.zshrc
