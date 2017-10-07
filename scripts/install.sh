@@ -9,4 +9,4 @@ brew bundle
 sh ./oh-my-zsh/install.sh
 
 echo "> creating symbolic link for .zshrc"
-ln -s -i ../zsh/.zshrc ~/.zshrc
+ln -s -i "$(pwd)/zsh/zshrc.symlink" ~/.zshrc
