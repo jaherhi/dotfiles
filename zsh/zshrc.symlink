@@ -1,7 +1,7 @@
-# rbenv
-eval "$(rbenv init -)"
+# chruby
+source /usr/local/share/chruby/chruby.sh
 
-# oh-my-zsh installation.
+# oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
 
 # theme

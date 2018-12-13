@@ -1,4 +1,4 @@
-
+brew 'chruby'
 brew 'git'
-brew 'rbenv'
+brew 'ruby-install'
 brew 'zsh'
