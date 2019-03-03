@@ -6,6 +6,8 @@ sh ./homebrew/install.sh
 echo "> installing dependencies using brew"
 brew bundle
 
+sh ./ruby/install.sh
+
 sh ./oh-my-zsh/install.sh
 
 # requires manual step as oh-my-zsh exits the script after being installed
