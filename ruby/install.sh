@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ruby-install --latest ruby
+ruby-install ruby
