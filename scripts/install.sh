@@ -6,11 +6,13 @@ sh ./homebrew/install.sh
 echo "> installing dependencies using brew"
 brew bundle
 
+echo "> installing ruby"
 sh ./ruby/install.sh
 
+echo "> installing oh my zsh"
 sh ./oh-my-zsh/install.sh
 
-# requires manual step as oh-my-zsh exits the script after being installed
-# it cannot be done before as oh-my-zsh installation replaces any existing .zshrc file
 echo "> creating symbolic link for .zshrc"
 ln -s -i "$(pwd)/zsh/zshrc.symlink" ~/.zshrc
+
+echo "> close terminal to finish installation"
