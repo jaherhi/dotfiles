@@ -1,7 +1,7 @@
 # chruby
 source /usr/local/share/chruby/chruby.sh
 
-chruby ruby-2.7.0
+chruby ruby
 
 # homebrew
 export HOMEBREW_NO_ANALYTICS=1
