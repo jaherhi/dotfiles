@@ -1,10 +1,12 @@
+# homebrew
+export HOMEBREW_NO_ANALYTICS=1
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # chruby
 source /usr/local/share/chruby/chruby.sh
 
 chruby ruby
-
-# homebrew
-export HOMEBREW_NO_ANALYTICS=1
 
 # oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
