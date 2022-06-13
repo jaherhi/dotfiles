@@ -19,4 +19,7 @@ oh-my-zsh/install.sh
 echo "> creating symbolic link for .zshrc"
 ln -s -i "$(pwd)/zsh/zshrc.symlink" ~/.zshrc
 
+echo "> copying Xcode themes"
+xcode/install.sh
+
 echo "> close terminal to finish installation"
