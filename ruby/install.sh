@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ruby-install ruby --src-dir ~/.rubies/src/ --cleanup
 

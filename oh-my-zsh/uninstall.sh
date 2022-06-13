@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ -f $ZSH/tools/uninstall.sh ]; then
   sh $ZSH/tools/uninstall.sh
