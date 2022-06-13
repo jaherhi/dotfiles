@@ -3,6 +3,8 @@
 echo "> installing Homebrew"
 sh ./homebrew/install.sh
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 echo "> installing dependencies using brew"
 brew bundle
 
